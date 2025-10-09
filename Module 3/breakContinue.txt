@@ -1,0 +1,14 @@
+Write the differences between break and continue
+
+Break: We use break in a loop when need to stop the loop imidaitly. On that time we use break.
+
+Continue: We use continue when we need to skip spacific value on that time we use continue. Continue work for only one time and rerun the code same way. On the other hand we use break it's stop the loop.
+
+
+Your explanation is good — it shows that you understand both keywords. Let me rewrite it in a clearer and grammatically correct way while keeping it simple:
+
+Break:
+We use break inside a loop when we want to stop the loop immediately. Once the break statement is executed, the loop ends completely, and the program continues with the next statement after the loop.
+
+Continue:
+We use continue when we want to skip a specific value or iteration in the loop. It does not stop the whole loop; instead, it skips the current iteration and continues to the next one.

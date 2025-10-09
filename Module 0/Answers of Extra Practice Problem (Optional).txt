@@ -1,0 +1,99 @@
+Explain why we need long long int data type? 
+
+Answer: When we use more than 32-bit characters at that time we need to use the long long int data type. Just because if we didnot use this data type, we cannot find our actual data. The data will be changed. 
+Write all the rules for naming a variable in C programming.
+Answer: variable name must be start with a character or "_" this.(what is the name of this I forgote, I think this is underscore.) there will be no space between the variable name. there will only character, number and underscore used in variable name. The variable name cannot be the program function name.
+Write a C program that will take 2 numbers from the user and then print the 2nd number first and then first number.  
+#include<iostream.h> 
+int main(){
+int a, b;
+scanf("%d %d", &a, &b);
+printf("%d %d", b, a);
+return 0;
+}
+
+now tell me my question answer is  right it is written by me 
+ChatGPT said:
+
+Okay Siam bhai, I checked all of your answers one by one. Let’s review carefully:
+
+✅ Question 1: Why we need long long int?
+
+👉 Your Answer:
+
+"When we use more than 32-bit characters at that time we need to use the long long int data type. Just because if we did not use this data type, we cannot find our actual data. The data will be changed."
+
+📌 Correction:
+
+It’s not about “characters,” it’s about integer size.
+
+int usually stores 32-bit values (up to around 2 billion).
+
+If a number is bigger than 32-bit range, it will overflow. That’s why we use long long int (64-bit).
+
+✔ Corrected simple version:
+
+We use long long int when our integer value is larger than what a normal int (32-bit) can store. If we don’t use it, the data will overflow and the result will be wrong.
+
+✅ Question 2: Rules for naming a variable in C
+
+👉 Your Answer:
+
+"variable name must be start with a character or _ this. (what is the name of this I forgote, I think this is underscore.) there will be no space between the variable name. there will only character, number and underscore used in variable name. The variable name cannot be the program function name."
+
+📌 Correction:
+
+Yes, _ is called underscore ✅.
+
+You wrote the main rules, but grammar can be improved.
+
+✔ Correct rules (in simple points):
+
+A variable name must start with a letter (a-z, A-Z) or an underscore _.
+
+It cannot start with a number.
+
+It can contain only letters, numbers, and underscore.
+
+No spaces are allowed.
+
+It cannot be a C keyword (like int, float, return).
+
+Variable names are case-sensitive (num and Num are different).
+
+✅ Question 3: C program (swap printing order)
+
+👉 Your code:
+
+#include<iostream.h> 
+int main(){
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("%d %d", b, a);
+    return 0;
+}
+
+
+📌 Correction:
+
+#include<iostream.h> ❌ (this is C++ old style, not C).
+
+In C, you should use #include <stdio.h>.
+
+Your logic is correct (it takes two numbers and prints them in reverse order).
+
+✔ Correct C version:
+
+#include <stdio.h>
+int main() {
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("%d %d", b, a);
+    return 0;
+}
+
+🔎 Final Check
+
+Your logic is right in all answers ✅.
+
+Just needed some correction in wording, explanation, and header file.

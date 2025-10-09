@@ -1,0 +1,53 @@
+1. Take a number from user and check if its a even number or odd number.
+Answer: 
+#include<stdio.h>
+int main(){
+    int a;
+    scanf("%d", &a);
+    if(a%2 == 0){
+        printf("Even number\n");
+    }
+    else{
+        printf("Odd number\n");
+    }
+    return 0;
+}
+
+2. Take a number from user and check if its a positive or negative number.
+Answer: 
+#include<stdio.h>
+int main(){
+    int a;
+    scanf("%d", &a);
+    if(a> 0){
+        printf("Positive number\n");
+    }
+    else if(a< 0){
+        printf("Negative number\n");
+    }
+    else{
+        printf("Zero\n");
+    }
+    return 0;
+}
+
+3. Explain if else ladder.
+Answer:
+if else ladder means when we write some condition if is not work than it go else if or else block to check other condition or print what we gave there. the relation of an if and else if or else block is if else ladder.
+
+Your Answer:
+
+"if else ladder means when we write some condition if is not work than it go else if or else block to check other condition or print what we gave there. the relation of an if and else if or else block is if else ladder."
+
+📌 Correction: Grammar can be improved.
+
+✔ Corrected simple explanation:
+
+An if-else ladder is used when we need to check multiple conditions one after another.
+
+First, the if condition is checked.
+
+If it is false, then the program goes to the else if block.
+
+If none of the conditions are true, the final else block is executed.
+This step-by-step checking forms a ladder-like structure, so it is called if-else ladder."
