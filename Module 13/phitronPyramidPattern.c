@@ -13,7 +13,7 @@ int main()
             printf("%d", j);
         }
         printf("\n");
-        star++; 
+        star+= 2; 
         space--;
     }
 
